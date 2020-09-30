@@ -1,0 +1,6 @@
+backend:
+  name: github
+  repo: <github_name>/<repo_name> # e.g. ateagit/personal-website
+
+media_folder: static/assets
+public_folder: /assets
