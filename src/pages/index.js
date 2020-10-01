@@ -1,13 +1,13 @@
 import React from "react"
 
 import Header from "../components/header"
+import Footer from "../components/footer"
 import "../styles.css"
 
 export default function Home() {
   return (
     <div>
       <Header />
-
       <div className="container">
         <h1>About Me</h1>
         <p>
@@ -27,6 +27,7 @@ export default function Home() {
           egestas lectus a porta imperdie
         </p>
       </div>
+      <Footer />
     </div>
   )
 }

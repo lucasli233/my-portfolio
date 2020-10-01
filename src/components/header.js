@@ -5,7 +5,7 @@ import "../styles.css"
 export default function Header() {
   return (
     <header>
-      <p className="name">John Smith</p>
+      <p className="name">Lucas Li</p>
       <div className="navigation">
         <Link to="/">Home</Link>
         <Link to="/projects">Projects</Link>
