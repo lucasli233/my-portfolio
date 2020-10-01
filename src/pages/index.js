@@ -1,7 +1,6 @@
 import React from "react"
-
 import Header from "../components/header"
-import Footer from "../components/footer"
+import SocialFollow from "../components/contact"
 import "../styles.css"
 
 export default function Home() {
@@ -27,7 +26,7 @@ export default function Home() {
           egestas lectus a porta imperdie
         </p>
       </div>
-      <Footer />
+      <SocialFollow />
     </div>
   )
 }

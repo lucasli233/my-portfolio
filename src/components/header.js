@@ -1,18 +1,19 @@
 import React from "react"
-import { Link } from "gatsby" //import non-standard elements
 import "../styles.css"
+import { Link } from "gatsby" //import non-standard elements
 
-export default function Header() {
+export default function Home() {
   return (
-    <header>
-      <p className="name">Lucas Li</p>
-      <div className="navigation">
-        <Link to="/">Home</Link>
-        <Link to="/projects">Projects</Link>
-        <Link to="/education">Education</Link>
-        <Link to="/experience">Experience</Link>
-        <Link to="/blog">Blog</Link>
-      </div>
-    </header>
+    <div>
+      <header>
+        <div className="navigation">
+          <Link to="/">Home</Link>
+          <Link to="/projects">Projects</Link>
+          <Link to="/education">Education</Link>
+          <Link to="/experience">Experience</Link>
+          <Link to="/blog">Blog</Link>
+        </div>
+      </header>
+    </div>
   )
 }
