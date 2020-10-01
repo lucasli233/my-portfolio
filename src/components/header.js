@@ -1,5 +1,5 @@
 import React from "react"
-import { Link } from "gatsby"
+import { Link } from "gatsby" //import non-standard elements
 import "../styles.css"
 
 export default function Header() {
